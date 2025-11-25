@@ -1,0 +1,1076 @@
+>Feature mini-ess_XIV
+290	1687	mRNA
+			product	PFS2
+			gene	PFS2
+290	1687	CDS
+			product	PFS2p
+			gene	PFS2
+290	1687	gene
+			gene	PFS2
+1799	1768	repeat_region
+			note	Rox
+1825	1941	rep_origin
+			note	CEN6
+1942	2332	rep_origin
+			note	ARS4
+2389	2358	repeat_region
+			note	Rox
+5222	2508	mRNA
+			product	EMW1
+			gene	EMW1
+5222	2508	CDS
+			product	EMW1p
+			gene	EMW1
+5222	2508	gene
+			gene	EMW1
+5487	6308	gene
+			gene	RFA2
+5487	5493	mRNA
+5494	6308
+			product	RFA2
+			gene	RFA2
+5487	5493	CDS
+5494	6308
+			product	RFA2p
+			gene	RFA2
+6515	6484	repeat_region
+			note	Rox
+7215	6691	mRNA
+			product	ZIM17
+			gene	ZIM17
+7215	6691	CDS
+			product	ZIM17p
+			gene	ZIM17
+7215	6691	gene
+			gene	ZIM17
+7366	7695	misc_feature
+			note	large spacer
+7366	7397	repeat_region
+			note	Rox
+7664	7695	repeat_region
+			note	Rox
+7885	9660	mRNA
+			product	KRI1
+			gene	KRI1
+7885	9660	CDS
+			product	KRI1p
+			gene	KRI1
+7885	9660	gene
+			gene	KRI1
+9867	9836	repeat_region
+			note	Rox
+9893	9896	mRNA
+			product	BXI1
+			gene	BXI1
+9893	9896	CDS
+			product	BXI1p
+			gene	BXI1
+			codon_start	2
+9893	9896	gene
+			gene	BXI1
+10639	9986	mRNA
+			product	MRPS18
+			gene	MRPS18
+10639	9986	CDS
+			product	MRPS18p
+			gene	MRPS18
+10639	9986	gene
+			gene	MRPS18
+11112	11127	misc_feature
+			note	ABF1 binding
+11188	11517	misc_feature
+			note	large spacer
+11188	11219	repeat_region
+			note	Rox
+11486	11517	repeat_region
+			note	Rox
+11668	12690	mRNA
+			product	RFC3
+			gene	RFC3
+11668	12690	CDS
+			product	RFC3p
+			gene	RFC3
+11668	12690	gene
+			gene	RFC3
+12841	13170	misc_feature
+			note	large spacer
+12841	12872	repeat_region
+			note	Rox
+13101	13120	primer_bind
+			note	13,101 F
+13139	13170	repeat_region
+			note	Rox
+13279	13256	primer_bind
+			note	13,279 R
+16215	13408	mRNA
+			product	SEC21
+			gene	SEC21
+16215	13408	CDS
+			product	SEC21p
+			gene	SEC21
+16215	13408	gene
+			gene	SEC21
+16455	16784	misc_feature
+			note	large spacer
+16455	16486	repeat_region
+			note	Rox
+16753	16784	repeat_region
+			note	Rox
+16831	16836	misc_feature
+			note	TEC1 binding
+16968	16975	misc_feature
+			note	CBF1 binding
+17305	17892	mRNA
+			product	POP3
+			gene	POP3
+17305	17892	CDS
+			product	POP3p
+			gene	POP3
+17305	17892	gene
+			gene	POP3
+18099	18068	repeat_region
+			note	Rox
+18125	18174	misc_feature
+			note	small ARS spacer
+18175	18381	rep_origin
+			note	rep origin
+18175	18175	mRNA
+			product	TOF1
+			gene	TOF1
+18175	18175	CDS
+			product	TOF1p
+			gene	TOF1
+			codon_start	2
+18175	18175	gene
+			gene	TOF1
+20660	18381	mRNA
+			product	SEC2
+			gene	SEC2
+20660	18381	CDS
+			product	SEC2p
+			gene	SEC2
+20660	18381	gene
+			gene	SEC2
+20955	21284	misc_feature
+			note	large spacer
+20955	20986	repeat_region
+			note	Rox
+21253	21284	repeat_region
+			note	Rox
+21563	24763	mRNA
+			product	PIK1
+			gene	PIK1
+21563	24763	CDS
+			product	PIK1p
+			gene	PIK1
+21563	24763	gene
+			gene	PIK1
+24914	25243	misc_feature
+			note	large spacer
+24914	24945	repeat_region
+			note	Rox
+25133	25152	primer_bind
+			note	Chunk B check F
+25212	25243	repeat_region
+			note	Rox
+25374	25351	primer_bind
+			note	25,374 R
+26338	25394	mRNA
+			product	YIF1
+			gene	YIF1
+26338	25394	CDS
+			product	YIF1p
+			gene	YIF1
+26338	25394	gene
+			gene	YIF1
+26710	33378	mRNA
+			product	POL2
+			gene	POL2
+26710	33378	CDS
+			product	POL2p
+			gene	POL2
+26710	33378	gene
+			gene	POL2
+33598	35037	mRNA
+			product	ORC5
+			gene	ORC5
+33598	35037	CDS
+			product	ORC5p
+			gene	ORC5
+33598	35037	gene
+			gene	ORC5
+35953	35357	mRNA
+			product	hypothetical protein
+			gene	hypothetical protein
+35953	35357	CDS
+			product	hypothetical proteinp
+			gene	hypothetical protein
+36363	36142	mRNA
+			product	ATX1
+			gene	ATX1
+36363	36142	CDS
+			product	ATX1p
+			gene	ATX1
+36363	36142	gene
+			gene	ATX1
+36515	36844	misc_feature
+			note	large spacer
+36515	36546	repeat_region
+			note	Rox
+36741	36760	primer_bind
+			note	36,741 F
+36813	36844	repeat_region
+			note	Rox
+36974	36952	primer_bind
+			note	36,974 R
+37052	39316	mRNA
+			product	DSL1
+			gene	DSL1
+37052	39316	CDS
+			product	DSL1p
+			gene	DSL1
+37052	39316	gene
+			gene	DSL1
+39523	39492	repeat_region
+			note	Rox
+39549	39626	rep_origin
+			note	ARS514
+39562	39578	misc_feature
+			note	ARS514_ARS_consensus_sequence
+39683	39652	repeat_region
+			note	Rox
+42333	39859	mRNA
+			product	FOL1
+			gene	FOL1
+42333	39859	CDS
+			product	FOL1p
+			gene	FOL1
+42333	39859	gene
+			gene	FOL1
+42594	42923	misc_feature
+			note	large spacer
+42594	42625	repeat_region
+			note	Rox
+42892	42923	repeat_region
+			note	Rox
+43469	45196	mRNA
+			product	NRD1
+			gene	NRD1
+43469	45196	CDS
+			product	NRD1p
+			gene	NRD1
+43469	45196	gene
+			gene	NRD1
+45403	45372	repeat_region
+			note	Rox
+47882	45579	mRNA
+			product	cysteine--tRNA ligase
+			gene	cysteine--tRNA ligase
+47882	45579	CDS
+			product	cysteine--tRNA ligasep
+			gene	cysteine--tRNA ligase
+48033	48362	misc_feature
+			note	large spacer
+48033	48064	repeat_region
+			note	Rox
+48306	48325	primer_bind
+			note	48,306 F
+48331	48362	repeat_region
+			note	Rox
+48363	48968	mRNA
+			product	VPS75
+			gene	VPS75
+48363	48968	CDS
+			product	VPS75p
+			gene	VPS75
+48363	48968	gene
+			gene	VPS75
+48461	48442	primer_bind
+			note	48,461 R
+49504	48965	mRNA
+			product	CWC25
+			gene	CWC25
+49504	48965	CDS
+			product	CWC25p
+			gene	CWC25
+49504	48965	gene
+			gene	CWC25
+50115	49789	mRNA
+			product	SUI1
+			gene	SUI1
+50115	49789	CDS
+			product	SUI1p
+			gene	SUI1
+50115	49789	gene
+			gene	SUI1
+50266	50595	misc_feature
+			note	large spacer
+50266	50297	repeat_region
+			note	Rox
+50564	50595	repeat_region
+			note	Rox
+50596	51021	promoter
+			note	pTEF1
+51022	51738	CDS
+			product	yEGFP3p
+			gene	yEGFP3
+51747	51975	regulatory
+52032	52001	repeat_region
+			note	Rox
+53683	52208	mRNA
+			product	NAR1
+			gene	NAR1
+53683	52208	CDS
+			product	NAR1p
+			gene	NAR1
+53683	52208	gene
+			gene	NAR1
+53834	54163	misc_feature
+			note	large spacer
+53834	53865	repeat_region
+			note	Rox
+54132	54163	repeat_region
+			note	Rox
+54214	54219	misc_feature
+			note	CBF1 binding site
+54383	55261	mRNA
+			product	CSL4
+			gene	CSL4
+54383	55261	CDS
+			product	CSL4p
+			gene	CSL4
+54383	55261	gene
+			gene	CSL4
+55468	55437	repeat_region
+			note	Rox
+56264	55644	mRNA
+			product	SSU72
+			gene	SSU72
+56264	55644	CDS
+			product	SSU72p
+			gene	SSU72
+56264	55644	gene
+			gene	SSU72
+56441	56770	misc_feature
+			note	large spacer
+56441	56472	repeat_region
+			note	Rox
+56739	56770	repeat_region
+			note	Rox
+57453	60080	mRNA
+			product	POP1
+			gene	POP1
+57453	60080	CDS
+			product	POP1p
+			gene	POP1
+57453	60080	gene
+			gene	POP1
+60231	60560	misc_feature
+			note	large spacer
+60231	60262	repeat_region
+			note	Rox
+60447	60466	primer_bind
+			note	60,447 F
+60529	60560	repeat_region
+			note	Rox
+60681	60662	primer_bind
+			note	60,681 R
+60833	63316	mRNA
+			product	RAP1
+			gene	RAP1
+60833	63316	CDS
+			product	RAP1p
+			gene	RAP1
+60833	63316	gene
+			gene	RAP1
+63523	63492	repeat_region
+			note	Rox
+63549	63561	mRNA
+			product	RTT106
+			gene	RTT106
+63549	63561	CDS
+			product	RTT106p
+			gene	RTT106
+			codon_start	2
+63549	63561	gene
+			gene	RTT106
+64996	63719	mRNA
+			product	RIO2
+			gene	RIO2
+64996	63719	CDS
+			product	RIO2p
+			gene	RIO2
+64996	63719	gene
+			gene	RIO2
+65238	65567	misc_feature
+			note	large spacer
+65238	65269	repeat_region
+			note	Rox
+65536	65567	repeat_region
+			note	Rox
+66275	67903	mRNA
+			product	SRP1
+			gene	SRP1
+66275	67903	CDS
+			product	SRP1p
+			gene	SRP1
+66275	67903	gene
+			gene	SRP1
+68323	69624	mRNA
+			product	KAR1
+			gene	KAR1
+68323	69624	CDS
+			product	KAR1p
+			gene	KAR1
+68323	69624	gene
+			gene	KAR1
+69831	69800	repeat_region
+			note	Rox
+69857	70026	rep_origin
+			note	ARS106
+69991	69975	misc_feature
+			note	ARS106_ARS_consensus_sequence
+70083	70052	repeat_region
+			note	Rox
+71926	70259	mRNA
+			product	IPI3
+			gene	IPI3
+71926	70259	CDS
+			product	IPI3p
+			gene	IPI3
+71926	70259	gene
+			gene	IPI3
+72634	73857	mRNA
+			product	hypothetical protein
+			gene	hypothetical protein
+72634	73857	CDS
+			product	hypothetical proteinp
+			gene	hypothetical protein
+73953	74282	misc_feature
+			note	large spacer
+73953	73984	repeat_region
+			note	Rox
+74203	74222	primer_bind
+			note	74,203 F
+74251	74282	repeat_region
+			note	Rox
+74361	74341	primer_bind
+			note	74,361 R
+75155	74433	mRNA
+			product	RPS3
+			gene	RPS3
+75155	74433	CDS
+			product	RPS3p
+			gene	RPS3
+75155	74433	gene
+			gene	RPS3
+75946	76275	misc_feature
+			note	large spacer
+75946	75977	repeat_region
+			note	Rox
+76244	76275	repeat_region
+			note	Rox
+76651	81897	mRNA
+			product	APC1
+			gene	APC1
+76651	81897	CDS
+			product	APC1p
+			gene	APC1
+76651	81897	gene
+			gene	APC1
+82176	82505	misc_feature
+			note	large spacer
+82176	82207	repeat_region
+			note	Rox
+82441	82460	primer_bind
+			note	82,441 F
+82474	82505	repeat_region
+			note	Rox
+85988	82656	mRNA
+			product	RIA1
+			gene	RIA1
+85988	82656	CDS
+			product	RIA1p
+			gene	RIA1
+85988	82656	gene
+			gene	RIA1
+82695	82674	primer_bind
+			note	82,695 R
+86244	86462	mRNA
+			product	hypothetical protein
+			gene	hypothetical protein
+86244	86462	CDS
+			product	hypothetical proteinp
+			gene	hypothetical protein
+87237	88069	gene
+			gene	RPL42A
+87237	87240	mRNA
+87753	88069
+			product	RPL42A
+			gene	RPL42A
+87237	87240	CDS
+87753	88069
+			product	RPL42Ap
+			gene	RPL42A
+88512	90782	mRNA
+			product	CBK1
+			gene	CBK1
+88512	90782	CDS
+			product	CBK1p
+			gene	CBK1
+88512	90782	gene
+			gene	CBK1
+90933	91262	misc_feature
+			note	large spacer
+90933	90964	repeat_region
+			note	Rox
+91231	91262	repeat_region
+			note	Rox
+91456	92052	mRNA
+			product	PGA1
+			gene	PGA1
+91456	92052	CDS
+			product	PGA1p
+			gene	PGA1
+91456	92052	gene
+			gene	PGA1
+92196	92440	mRNA
+			product	IGO1
+			gene	IGO1
+92196	92440	CDS
+			product	IGO1p
+			gene	IGO1
+92196	92440	gene
+			gene	IGO1
+92441	92531	rep_origin
+			note	ARS714
+92454	92468	misc_feature
+			note	ARS714_ARS_consensus_sequence
+92532	92861	misc_feature
+			note	large spacer
+92532	92563	repeat_region
+			note	Rox
+92724	92743	primer_bind
+			note	92,724 F
+92830	92861	repeat_region
+			note	Rox
+92952	92933	primer_bind
+			note	92,952 R
+93063	94292	mRNA
+			product	INN1
+			gene	INN1
+93063	94292	CDS
+			product	INN1p
+			gene	INN1
+93063	94292	gene
+			gene	INN1
+95271	94516	mRNA
+			product	RPC31
+			gene	RPC31
+95271	94516	CDS
+			product	RPC31p
+			gene	RPC31
+95271	94516	gene
+			gene	RPC31
+96506	96117	mRNA
+			product	PGA2
+			gene	PGA2
+96506	96117	CDS
+			product	PGA2p
+			gene	PGA2
+96506	96117	gene
+			gene	PGA2
+96657	96986	misc_feature
+			note	large spacer
+96657	96688	repeat_region
+			note	Rox
+96955	96986	repeat_region
+			note	Rox
+97137	98597	mRNA
+			product	NAM9
+			gene	NAM9
+97137	98597	CDS
+			product	NAM9p
+			gene	NAM9
+97137	98597	gene
+			gene	NAM9
+98799	99128	misc_feature
+			note	large spacer
+98799	98830	repeat_region
+			note	Rox
+99097	99128	repeat_region
+			note	Rox
+99129	99228	misc_feature
+			note	CEN14 3' homology
+99252	99467	promoter
+			note	S. cerevisiae URA3 promoter
+99252	100686	misc_feature
+			note	TELOMERATOR_02
+99468	99904	exon
+99468	99904	CDS
+99905	100319
+100320	100686
+			product	URA3-ACT1p
+			gene	URA3-ACT1
+99518	99497	primer_bind
+			note	URA_int_Telo-R
+99903	99904	misc_feature
+			note	telomerator insertion
+99905	100319	intron
+99972	100012	misc_feature
+			note	telomerase seed sequence
+100013	100030	misc_binding
+100031	100070	misc_feature
+			note	telomerase seed sequence
+100320	100686	exon
+100320	100321	misc_feature
+			note	telomerator insertion
+100576	100599	primer_bind
+			note	URA_int_Telo-F
+100687	100767	terminator
+			note	URA3 terminator
+100791	100890	misc_feature
+			note	CEN14 5' homology
+100947	100916	repeat_region
+			note	Rox
+101762	101304	mRNA
+			product	TOM22
+			gene	TOM22
+101762	101304	CDS
+			product	TOM22p
+			gene	TOM22
+101762	101304	gene
+			gene	TOM22
+105208	102038	mRNA
+			product	KRE33
+			gene	KRE33
+105208	102038	CDS
+			product	KRE33p
+			gene	KRE33
+105208	102038	gene
+			gene	KRE33
+105359	105688	misc_feature
+			note	large spacer
+105359	105390	repeat_region
+			note	Rox
+105584	105603	primer_bind
+			note	105,584 F
+105657	105688	repeat_region
+			note	Rox
+105794	105770	primer_bind
+			note	105,794 R
+105839	108379	mRNA
+			product	SPC98
+			gene	SPC98
+105839	108379	CDS
+			product	SPC98p
+			gene	SPC98
+105839	108379	gene
+			gene	SPC98
+108586	108555	repeat_region
+			note	Rox
+110268	108790	mRNA
+			product	NAF1
+			gene	NAF1
+110268	108790	CDS
+			product	NAF1p
+			gene	NAF1
+110268	108790	gene
+			gene	NAF1
+110469	110798	misc_feature
+			note	large spacer
+110469	110500	repeat_region
+			note	Rox
+110767	110798	repeat_region
+			note	Rox
+111215	114127	mRNA
+			product	DCP2
+			gene	DCP2
+111215	114127	CDS
+			product	DCP2p
+			gene	DCP2
+111215	114127	gene
+			gene	DCP2
+114258	114587	misc_feature
+			note	large spacer
+114258	114289	repeat_region
+			note	Rox
+114469	114488	primer_bind
+			note	114,469 F
+114556	114587	repeat_region
+			note	Rox
+114588	114817	rep_origin
+			note	rep origin
+114624	114604	primer_bind
+			note	114,624 R
+115092	115520	mRNA
+			product	RPC19
+			gene	RPC19
+115092	115520	CDS
+			product	RPC19p
+			gene	RPC19
+115092	115520	gene
+			gene	RPC19
+115960	117600	gene
+			gene	DBP2
+115960	117232	mRNA
+117233	117600
+			product	DBP2
+			gene	DBP2
+115960	117232	CDS
+117233	117600
+			product	DBP2p
+			gene	DBP2
+117751	118080	misc_feature
+			note	large spacer
+117751	117782	repeat_region
+			note	Rox
+118049	118080	repeat_region
+			note	Rox
+118358	119020	mRNA
+			product	NOP15
+			gene	NOP15
+118358	119020	CDS
+			product	NOP15p
+			gene	NOP15
+118358	119020	gene
+			gene	NOP15
+119227	119196	repeat_region
+			note	Rox
+123809	119403	mRNA
+			product	POL1
+			gene	POL1
+123809	119403	CDS
+			product	POL1p
+			gene	POL1
+123809	119403	gene
+			gene	POL1
+126161	124143	mRNA
+			product	MET4
+			gene	MET4
+126161	124143	CDS
+			product	MET4p
+			gene	MET4
+126161	124143	gene
+			gene	MET4
+126727	127056	misc_feature
+			note	large spacer
+126727	126758	repeat_region
+			note	Rox
+126971	126990	primer_bind
+			note	126,971 F
+127025	127056	repeat_region
+			note	Rox
+127147	127127	primer_bind
+			note	127,147 R
+127502	131788	mRNA
+			product	TOP2
+			gene	TOP2
+127502	131788	CDS
+			product	TOP2p
+			gene	TOP2
+127502	131788	gene
+			gene	TOP2
+131995	131964	repeat_region
+			note	Rox
+133043	132171	mRNA
+			product	IMP4
+			gene	IMP4
+133043	132171	CDS
+			product	IMP4p
+			gene	IMP4
+133043	132171	gene
+			gene	IMP4
+133290	133619	misc_feature
+			note	large spacer
+133290	133321	repeat_region
+			note	Rox
+133588	133619	repeat_region
+			note	Rox
+133971	135305	mRNA
+			product	MET17
+			gene	MET17
+133971	135305	CDS
+			product	MET17p
+			gene	MET17
+133971	135305	gene
+			gene	MET17
+135523	135492	repeat_region
+			note	Rox
+137058	135622	mRNA
+			product	GCD10
+			gene	GCD10
+137058	135622	CDS
+			product	GCD10p
+			gene	GCD10
+137058	135622	gene
+			gene	GCD10
+137386	139242	mRNA
+			product	NOP2
+			gene	NOP2
+137386	139242	CDS
+			product	NOP2p
+			gene	NOP2
+137386	139242	gene
+			gene	NOP2
+139393	139722	misc_feature
+			note	large spacer
+139393	139424	repeat_region
+			note	Rox
+139593	139612	primer_bind
+			note	139,593 F
+139691	139722	repeat_region
+			note	Rox
+139768	139745	primer_bind
+			note	139,768 R
+140622	139859	gene
+			gene	GPI15
+140622	140032	mRNA
+139957	139859
+			product	GPI15
+			gene	GPI15
+140622	140032	CDS
+139957	139859
+			product	GPI15p
+			gene	GPI15
+142594	140810	mRNA
+			product	BDP1
+			gene	BDP1
+142594	140810	CDS
+			product	BDP1p
+			gene	BDP1
+142594	140810	gene
+			gene	BDP1
+142820	143149	misc_feature
+			note	large spacer
+142820	142851	repeat_region
+			note	Rox
+143118	143149	repeat_region
+			note	Rox
+143545	145581	mRNA
+			product	CRZ1
+			gene	CRZ1
+143545	145581	CDS
+			product	CRZ1p
+			gene	CRZ1
+143545	145581	gene
+			gene	CRZ1
+145789	145758	repeat_region
+			note	Rox
+147023	145965	mRNA
+			product	SIS1
+			gene	SIS1
+147023	145965	CDS
+			product	SIS1p
+			gene	SIS1
+147023	145965	gene
+			gene	SIS1
+147525	148436	mRNA
+			product	LST8
+			gene	LST8
+147525	148436	CDS
+			product	LST8p
+			gene	LST8
+147525	148436	gene
+			gene	LST8
+148434	148436	modified_base
+148673	148642	repeat_region
+			note	Rox
+149817	148849	mRNA
+			product	RLP7
+			gene	RLP7
+149817	148849	CDS
+			product	RLP7p
+			gene	RLP7
+149817	148849	gene
+			gene	RLP7
+149968	150297	misc_feature
+			note	large spacer
+149968	149999	repeat_region
+			note	Rox
+150266	150297	repeat_region
+			note	Rox
+150538	150298	rep_origin
+			note	rep origin
+150905	151858	mRNA
+			product	RPC34
+			gene	RPC34
+150905	151858	CDS
+			product	RPC34p
+			gene	RPC34
+150905	151858	gene
+			gene	RPC34
+152009	152338	misc_feature
+			note	large spacer
+152009	152040	repeat_region
+			note	Rox
+152242	152261	primer_bind
+			note	152,242 F
+152307	152338	repeat_region
+			note	Rox
+152389	152368	primer_bind
+			note	152,389 R
+152489	155119	mRNA
+			product	PRP2
+			gene	PRP2
+152489	155119	CDS
+			product	PRP2p
+			gene	PRP2
+152489	155119	gene
+			gene	PRP2
+155300	155269	repeat_region
+			note	Rox
+162157	155456	mRNA
+			product	ACC1
+			gene	ACC1
+162157	155456	CDS
+			product	ACC1p
+			gene	ACC1
+162157	155456	gene
+			gene	ACC1
+163696	164364	mRNA
+			product	TIM23
+			gene	TIM23
+163696	164364	CDS
+			product	TIM23p
+			gene	TIM23
+163696	164364	gene
+			gene	TIM23
+164516	164845	misc_feature
+			note	large spacer
+164516	164547	repeat_region
+			note	Rox
+164777	164796	primer_bind
+			note	164,777 F
+164814	164845	repeat_region
+			note	Rox
+164939	164919	primer_bind
+			note	164,939 R
+166533	165118	mRNA
+			product	SEC12
+			gene	SEC12
+166533	165118	CDS
+			product	SEC12p
+			gene	SEC12
+166533	165118	gene
+			gene	SEC12
+166697	167026	misc_feature
+			note	large spacer
+166697	166728	repeat_region
+			note	Rox
+166995	167026	repeat_region
+			note	Rox
+167177	168205	mRNA
+			product	ARC35
+			gene	ARC35
+167177	168205	CDS
+			product	ARC35p
+			gene	ARC35
+167177	168205	gene
+			gene	ARC35
+168412	168381	repeat_region
+			note	Rox
+168438	168458	mRNA
+			product	ZRG17
+			gene	ZRG17
+168438	168458	CDS
+			product	ZRG17p
+			gene	ZRG17
+168438	168458	gene
+			gene	ZRG17
+170477	168588	mRNA
+			product	DBP6
+			gene	DBP6
+170477	168588	CDS
+			product	DBP6p
+			gene	DBP6
+170477	168588	gene
+			gene	DBP6
+170628	170957	misc_feature
+			note	large spacer
+170628	170659	repeat_region
+			note	Rox
+170926	170957	repeat_region
+			note	Rox
+171129	172319	mRNA
+			product	MVD1
+			gene	MVD1
+171129	172319	CDS
+			product	MVD1p
+			gene	MVD1
+171129	172319	gene
+			gene	MVD1
+172526	172495	repeat_region
+			note	Rox
+173110	172703	mRNA
+			product	TRM112
+			gene	TRM112
+173110	172703	CDS
+			product	TRM112p
+			gene	TRM112
+173110	172703	gene
+			gene	TRM112
+173261	173590	misc_feature
+			note	large spacer
+173261	173292	repeat_region
+			note	Rox
+173514	173533	primer_bind
+			note	173,514 F
+173559	173590	repeat_region
+			note	Rox
+173591	173707	rep_origin
+			note	CEN6
+173708	174098	rep_origin
+			note	ARS4
+173733	173714	primer_bind
+			note	173,733 R
+174155	174124	repeat_region
+			note	Rox
+174240	174220	primer_bind
+			note	174,240 R
+176008	176958	mRNA
+			product	ESF2
+			gene	ESF2
+176008	176958	CDS
+			product	ESF2p
+			gene	ESF2
+176008	176958	gene
+			gene	ESF2
+177202	179194	gene
+			gene	NOG2
+177202	178011	mRNA
+178544	179194
+			product	NOG2
+			gene	NOG2
+177202	178011	CDS
+178544	179194
+			product	NOG2p
+			gene	NOG2
+178103	178376	ncRNA
+			product	SNR191 ncRNA
+			gene	SNR191
+179345	179674	misc_feature
+			note	large spacer
+179345	179376	repeat_region
+			note	Rox
+179643	179674	repeat_region
+			note	Rox
+179675	179687	misc_feature
+			note	SfiI
+179688	180031	promoter
+			note	TEF promoter
+179688	181263	gene
+			gene	hphMX6
+180032	181060	CDS
+			product	HygRp
+			gene	HygR
+180032	181060	gene
+			gene	hphMX6
+181066	181263	terminator
+			note	TEF terminator
+181264	181295	repeat_region
+			note	Rox
+181296	181593	misc_feature
+			note	large spacer
+181562	181593	repeat_region
+			note	Rox
