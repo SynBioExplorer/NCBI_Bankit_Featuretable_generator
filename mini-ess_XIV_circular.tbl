@@ -866,8 +866,7 @@
 			gene	LST8
 147525	148436	gene
 			gene	LST8
-148434	148436	modified_base
-			mod_base	other
+148434	148436	misc_feature
 			note	STOP swap
 148673	148642	repeat_region
 			note	Rox
