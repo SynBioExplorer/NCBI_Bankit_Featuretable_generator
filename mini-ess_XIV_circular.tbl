@@ -134,15 +134,6 @@
 			note	small ARS spacer
 18175	18381	rep_origin
 			note	rep origin
-18175	18175	mRNA
-			product	TOF1
-			gene	TOF1
-18175	18175	CDS
-			product	TOF1p
-			gene	TOF1
-			codon_start	2
-18175	18175	gene
-			gene	TOF1
 20660	18381	mRNA
 			product	SEC2
 			gene	SEC2
@@ -315,6 +306,8 @@
 			product	yEGFP3p
 			gene	yEGFP3
 51747	51975	regulatory
+			regulatory_class	terminator
+			note	ADH1 terminator regulatory
 52032	52001	repeat_region
 			note	Rox
 53683	52208	mRNA
@@ -608,7 +601,6 @@
 			note	TELOMERATOR_02
 99468	99904	exon
 99468	99904	CDS
-99905	100319
 100320	100686
 			product	URA3-ACT1p
 			gene	URA3-ACT1
@@ -620,6 +612,7 @@
 99972	100012	misc_feature
 			note	telomerase seed sequence
 100013	100030	misc_binding
+			bound_moiety	SceI site
 100031	100070	misc_feature
 			note	telomerase seed sequence
 100320	100686	exon
@@ -874,6 +867,8 @@
 147525	148436	gene
 			gene	LST8
 148434	148436	modified_base
+			mod_base	other
+			note	STOP swap
 148673	148642	repeat_region
 			note	Rox
 149817	148849	mRNA
@@ -1048,6 +1043,7 @@
 			gene	NOG2
 178103	178376	ncRNA
 			product	SNR191 ncRNA
+			ncRNA_class	snoRNA
 			gene	SNR191
 179345	179674	misc_feature
 			note	large spacer
