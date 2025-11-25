@@ -72,7 +72,25 @@ def parse_gff(gff_file):
     """Parse GFF3 file and return features grouped by ID for multi-interval features."""
     features = []
     multi_interval_features = defaultdict(list)  # Group by ID for spliced features
+    intron_regions = set()  # Track intron coordinates to exclude from CDS
 
+    # First pass: collect all intron regions
+    with open(gff_file, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+
+            parts = line.split('\t')
+            if len(parts) < 9:
+                continue
+
+            seqid, source, feature_type, start, end, score, strand, phase, attributes = parts
+
+            if feature_type == 'intron':
+                intron_regions.add((int(start), int(end)))
+
+    # Second pass: parse all features
     with open(gff_file, 'r') as f:
         for line in f:
             line = line.strip()
@@ -116,6 +134,18 @@ def parse_gff(gff_file):
         if len(intervals) > 1:
             # Sort by start position
             intervals.sort(key=lambda x: x['start'])
+
+            # For CDS features, exclude intervals that match intron coordinates
+            if intervals[0]['type'] == 'CDS':
+                valid_intervals = []
+                for f in intervals:
+                    coord = (f['start'], f['end'])
+                    if coord not in intron_regions:
+                        valid_intervals.append(f)
+                    else:
+                        print(f"  Excluding intron interval {coord} from CDS {intervals[0]['name']}")
+                if valid_intervals:
+                    intervals = valid_intervals
 
             # Create merged feature with multiple intervals
             merged = intervals[0].copy()
@@ -191,11 +221,49 @@ def write_feature_table(features, seq_id, output_file):
                     f.write(f"\t\t\tproduct\t{gene_name}\n")
                     f.write(f"\t\t\tgene\t{gene_name}\n")
 
-            elif feature_type in ('tRNA', 'rRNA', 'ncRNA'):
+            elif feature_type == 'ncRNA':
+                # ncRNA requires ncRNA_class qualifier
+                if name:
+                    f.write(f"\t\t\tproduct\t{name}\n")
+                # Determine ncRNA class from name
+                if 'SNR' in name.upper() or 'snR' in name:
+                    f.write(f"\t\t\tncRNA_class\tsnoRNA\n")
+                else:
+                    f.write(f"\t\t\tncRNA_class\tother\n")
+                if gene_name and gene_name != name:
+                    f.write(f"\t\t\tgene\t{gene_name}\n")
+
+            elif feature_type in ('tRNA', 'rRNA'):
                 if name:
                     f.write(f"\t\t\tproduct\t{name}\n")
                 if gene_name and gene_name != name:
                     f.write(f"\t\t\tgene\t{gene_name}\n")
+
+            elif feature_type == 'regulatory':
+                # regulatory requires regulatory_class qualifier
+                # Try to extract class from name
+                reg_class = 'other'
+                name_lower = name.lower()
+                if 'terminator' in name_lower:
+                    reg_class = 'terminator'
+                elif 'promoter' in name_lower:
+                    reg_class = 'promoter'
+                elif 'enhancer' in name_lower:
+                    reg_class = 'enhancer'
+                f.write(f"\t\t\tregulatory_class\t{reg_class}\n")
+                if name:
+                    f.write(f"\t\t\tnote\t{name}\n")
+
+            elif feature_type == 'misc_binding':
+                # misc_binding requires bound_moiety qualifier
+                if name:
+                    f.write(f"\t\t\tbound_moiety\t{name}\n")
+
+            elif feature_type == 'modified_base':
+                # modified_base requires mod_base qualifier
+                f.write(f"\t\t\tmod_base\tother\n")
+                if name:
+                    f.write(f"\t\t\tnote\t{name}\n")
 
             elif feature_type == 'rep_origin':
                 if name:
@@ -265,23 +333,42 @@ def main():
     features = parse_gff(gff_file)
     print(f"Parsed {len(features)} features")
 
-    # Filter out features that extend beyond sequence boundaries
+    # Filter out features that extend beyond sequence boundaries or are too short
     valid_features = []
-    skipped = 0
+    skipped_coords = 0
+    skipped_short = 0
     for f in features:
         if 'intervals' in f:
             max_coord = max(max(start, end) for start, end in f['intervals'])
+            total_length = sum(abs(end - start) + 1 for start, end in f['intervals'])
         else:
             max_coord = max(f['start'], f['end'])
+            total_length = abs(f['end'] - f['start']) + 1
 
-        if max_coord <= seq_length:
-            valid_features.append(f)
-        else:
-            skipped += 1
+        # Skip features beyond sequence boundaries
+        if max_coord > seq_length:
+            skipped_coords += 1
             print(f"  Skipping {f['type']} {f['name']}: coordinates exceed sequence length ({max_coord} > {seq_length})")
+            continue
 
-    if skipped:
-        print(f"Skipped {skipped} features with invalid coordinates")
+        # Skip CDSs that are too short (less than 3bp for a codon)
+        if f['type'] == 'CDS' and total_length < 3:
+            skipped_short += 1
+            print(f"  Skipping {f['type']} {f['name']}: too short ({total_length}bp)")
+            continue
+
+        # Skip mRNA/gene that are too short (same as CDS issue)
+        if f['type'] in ('mRNA', 'gene') and total_length < 3:
+            skipped_short += 1
+            print(f"  Skipping {f['type']} {f['name']}: too short ({total_length}bp)")
+            continue
+
+        valid_features.append(f)
+
+    if skipped_coords:
+        print(f"Skipped {skipped_coords} features with invalid coordinates")
+    if skipped_short:
+        print(f"Skipped {skipped_short} features that are too short")
     features = valid_features
 
     write_feature_table(features, seq_id, output_file)
