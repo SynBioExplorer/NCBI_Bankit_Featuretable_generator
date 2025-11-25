@@ -30,6 +30,7 @@ FEATURE_NAME_MAP = {
     'primer_bind_reverse': 'primer_bind',
     'ARS': 'rep_origin',
     'ARS_consensus_sequence': 'misc_feature',
+    'modified_base': 'misc_feature',  # mod_base requires specific enumerated values
 }
 
 
@@ -258,12 +259,6 @@ def write_feature_table(features, seq_id, output_file):
                 # misc_binding requires bound_moiety qualifier
                 if name:
                     f.write(f"\t\t\tbound_moiety\t{name}\n")
-
-            elif feature_type == 'modified_base':
-                # modified_base requires mod_base qualifier
-                f.write(f"\t\t\tmod_base\tother\n")
-                if name:
-                    f.write(f"\t\t\tnote\t{name}\n")
 
             elif feature_type == 'rep_origin':
                 if name:
